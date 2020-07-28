@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XCheckbox.vue the entire template snapshot 1`] = `"<span class=\\"v-tooltip v-tooltip--bottom\\"><!----><div role=\\"button\\" aria-haspopup=\\"true\\" aria-expanded=\\"false\\" class=\\"x-checkbox v-simple-checkbox\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-checkbox-blank-outline theme--light\\"></i></div></span>"`;

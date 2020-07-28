@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XCreateForm.vue the entire template snapshot 1`] = `
+"<div class=\\"x-create-form v-card v-sheet theme--light darker\\" style=\\"width: 90%;\\">
+  <div class=\\"v-card__title\\">Create Bookmark</div>
+  <div class=\\"v-card__text pt-6\\">
+    <form novalidate=\\"novalidate\\" class=\\"v-form\\">
+      <h4>URL</h4>
+      <div class=\\"v-input theme--light v-text-field v-text-field--placeholder\\">
+        <div class=\\"v-input__control\\">
+          <div class=\\"v-input__slot\\">
+            <div class=\\"v-text-field__slot\\"><input id=\\"input-136\\" placeholder=\\"Insert a link URL to any page.\\" type=\\"text\\"></div>
+          </div>
+          <div class=\\"v-text-field__details\\">
+            <div class=\\"v-messages theme--light\\">
+              <div class=\\"v-messages__wrapper\\"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class=\\"v-card__actions\\">
+    <div class=\\"spacer\\"></div> <span class=\\"v-tooltip v-tooltip--bottom\\"><!----><div><button type=\\"button\\" disabled=\\"disabled\\" class=\\"x-tooltip-btn v-btn v-btn--contained v-btn--disabled theme--light v-size--default\\"><span class=\\"v-btn__content\\">
+      save
+    </span></button>
+  </div></span>
+</div>
+<div class=\\"v-card__text d-flex justify-center\\"></div>
+</div>"
+`;

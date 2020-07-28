@@ -1,0 +1,57 @@
+###
+POST http://localhost:5000/api/v1/folders
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "name": "test003",
+    "createdBy": "5ed1e1205fa1655054b0dd62",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+POST http://localhost:5000/api/v1/folders
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "name": "test004",
+    "createdBy": "5ed1e1205fa1655054b0dd62",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+GET http://localhost:5000/api/v1/folders/5eff2519a9db414f289db865
+authorization: bearer XXXXXXXXX
+
+###
+GET http://localhost:5000/api/v1/folders/5ef3522c41c72183147ca470
+authorization: bearer XXXXXXXXX
+
+###
+GET http://localhost:5000/api/v1/folders/
+authorization: bearer XXXXXXXXX
+
+###
+PATCH http://localhost:5000/api/v1/folders/5eff2519a9db414f289db865
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "name": "tagUpdated2",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+DELETE http://localhost:5000/api/v1/folders/5eff2519a9db414f289db865
+authorization: bearer XXXXXXXXX
+
+###
+POST http://localhost:5000/api/v1/folders/check_name
+content-type: application/json
+
+{
+    "name": "tagUpdated"
+}
+
+

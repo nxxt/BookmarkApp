@@ -1,0 +1,18 @@
+{
+  "tag": ["5ef3539b41c7218314tag001", "5ef3522c41c7218314tag002"],
+  "folder": ["5ef35e1118cb777folder001", "5ef6ab9cbe8bcd4folder002"],
+  "_id": "5ef3668015ceb88170b5b001",
+  "url": "https://jp.vuejs.org/index.html",
+  "title": "Vue.js",
+  "memo": "Vue.js - The Progressive JavaScript Framework",
+  "domain": "jp.vuejs.org",
+  "thumbnail": "5ef3668015ceb88170b5b001.png",
+  "watchNumber": 5,
+  "articleCreatedAt": "",
+  "articleUpdatedAt": "",
+  "createdBy": "5ed1e1205fa165505user001",
+  "updatedBy": "5ed1e1205fa165505user001",
+  "createdAt": "2020-06-24T14:43:12.335Z",
+  "updatedAt": "2020-06-29T07:10:20.509Z",
+  "__v": 0
+}

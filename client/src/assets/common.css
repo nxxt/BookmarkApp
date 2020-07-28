@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  background: #2b2b2b;
+}
+
+/* windowのxy方向のscrollbar非表示化 */
+body {
+  background: #2b2b2b;
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  -ms-overflow-style: none; /* IE, Edge 対応 */
+  scrollbar-width: none; /* Firefox 対応 */
+}
+body::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  display: none;
+}
+
+.scroll {
+  height: 100%;
+  max-height: calc(100vh - 62px);
+  overflow-y: scroll;
+  /* -ms-overflow-style: none; */ /* IE, Edge 対応 */
+  /* scrollbar-width: none; */ /* Firefox 対応 */
+}
+.scroll::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  /* display: none; */
+  width: 10px;
+}
+
+/*スクロールバーの軌道*/
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/*スクロールバーの動く部分*/
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+.x-list-group .scroll,
+.x-card-group .scroll {
+  max-height: calc(100vh - 120px);
+}
+/**=====================
+ * transition
+ * =====================*/
+
+/* 左からslidein */
+.left-enter-active,
+.left-leave-active {
+  transform: translate(0px, 0px);
+  transition: transform 300ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.left-enter,
+.left-leave-to {
+  transform: translateX(-100vw) translateX(0px);
+}
+
+/* 右からslidein */
+.right-enter-active,
+.right-leave-active {
+  transform: translate(0px, 0px);
+  transition: transform 300ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.right-enter,
+.right-leave-to {
+  transform: translateX(100vw) translateX(0px);
+}

@@ -1,0 +1,82 @@
+###
+POST http://localhost:5000/api/v1/bookmarks
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "url": "text1.com",
+    "title": "test1",
+    "memo": "test",
+    "tag": ["5ed1fc0516ffc4669cfb0dba","5ed1fc0b16ffc4669cfb0dbb"],
+    "thumbnail": "",
+    "watchNumber": "0",
+    "articleCreatedAt": "",
+    "articleUpdatedAt": "",
+    "createdBy": "5ed1e1205fa1655054b0dd62",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+POST http://localhost:5000/api/v1/bookmarks
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "url": "text2.com",
+    "title": "test2",
+    "memo": "test2",
+    "tag": ["5ed1fc0516ffc4669cfb0dba","5ed1fc0b16ffc4669cfb0dbb"],
+    "thumbnail": "",
+    "watchNumber": "0",
+    "articleCreatedAt": "",
+    "articleUpdatedAt": "",
+    "createdBy": "5ed1e1205fa1655054b0dd62",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+GET http://localhost:5000/api/v1/bookmarks/5ed1fd105422644a38cf5fa2
+authorization: bearer XXXXXXXXX
+
+###
+GET http://localhost:5000/api/v1/bookmarks
+authorization: bearer XXXXXXXXX
+
+###
+PATCH http://localhost:5000/api/v1/bookmarks/5ed1fd8e5422644a38cf5fa3
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "url": "text1update.com",
+    "title": "test1update",
+    "memo": "test1update",
+    "tag": ["5ed1fc0516ffc4669cfb0dba","5ed1fc0b16ffc4669cfb0dbb"],
+    "thumbnail": "",
+    "watchNumber": "99",
+    "articleCreatedAt": "",
+    "articleUpdatedAt": "",
+    "updatedBy": "5ed1e1205fa1655054b0dd62"
+}
+
+###
+DELETE http://localhost:5000/api/v1/bookmarks/5ed1ef941a208361e0928d45
+authorization: bearer XXXXXXXXX
+
+###
+POST http://localhost:5000/api/v1/bookmarks/scrape
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+  "url": "https://qiita.com/bbapexx/items/955c4ac0319322d3148f"
+}
+
+###
+POST http://localhost:5000/api/v1/bookmarks/create
+content-type: application/json
+
+{
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/21932_202007122400.html",
+    "userId": "5f05f6bd88564c1db090f9f4"
+}

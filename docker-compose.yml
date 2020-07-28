@@ -1,0 +1,59 @@
+# docker-compose記法のバージョン
+version: "3.3"
+
+# 起動するコンテナの種類を定義
+services:
+  client:
+    image: "bookmark-client"
+    container_name: "client"
+    ports:
+      - 7300:7300
+    environment:
+      TZ: Asia/Tokyo
+    # このコンテナは、以下記述する「mongo」コンテナが立ち上がってから作成される。
+    depends_on:
+      - mongo
+      - server
+
+  #以下node.jsのアプリケーションレイヤーの設定。このコンテナには「sever」と名前がつく
+  server:
+    image: "bookmark-server"
+    container_name: "server"
+    ports:
+      - 5000:5000
+    # このコンテナは、以下記述する「mongo」コンテナが立ち上がってから作成される。
+    depends_on:
+      - mongo
+    env_file:
+      - ./.prod.env
+  # 以下mongoDBのコンテナ設定。コンテナ名は「mongo」とつく。
+  mongo:
+    # mongoの公式コンテナイメージを元にして作成する。
+    image: "mongo"
+    container_name: "mongo"
+    command:
+      - mongod
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      #コンテナ内の/data/dbの中身を、「mongo-data」という名前のvolumeにマウント
+      - mongo-data:/data/db
+      - mongo-config:/data/configdb
+
+  mongo-data:
+    image: busybox
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: secret
+
+# 作成するvolumeの名前を列挙
+volumes:
+  mongo-data:
+  mongo-config:

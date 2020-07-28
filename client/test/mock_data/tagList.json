@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "5ef3539b41c7218314tag001",
+    "name": "TAG001",
+    "createdAt": "Wed Jun 24 2020 00:00:00 GMT+0900 (GMT+09:00)",
+    "updatedAt": "Wed Jun 24 2020 00:00:00 GMT+0900 (GMT+09:00)",
+    "createdBy": "5ed1e1205fa165505user001",
+    "updatedBy": "5ed1e1205fa165505user001",
+    "__v": 0
+  },
+  {
+    "_id": "5ef3522c41c7218314tag002",
+    "name": "TAG002",
+    "createdAt": "Wed Jun 24 2020 01:00:00 GMT+0900 (GMT+09:00)",
+    "updatedAt": "Wed Jun 24 2020 01:00:00 GMT+0900 (GMT+09:00)",
+    "createdBy": "5ed1e1205fa165505user001",
+    "updatedBy": "5ed1e1205fa165505user001",
+    "__v": 0
+  },
+  {
+    "_id": "5ef3524041c7218314tag003",
+    "name": "TAG003",
+    "createdAt": "Wed Jun 24 2020 02:00:00 GMT+0900 (GMT+09:00)",
+    "updatedAt": "Wed Jun 24 2020 02:00:00 GMT+0900 (GMT+09:00)",
+    "createdBy": "5ed1e1205fa165505user001",
+    "updatedBy": "5ed1e1205fa165505user001",
+    "__v": 0
+  }
+]

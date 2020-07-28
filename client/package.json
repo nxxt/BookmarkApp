@@ -1,0 +1,66 @@
+{
+  "name": "nuxt-ts-bookmark-app",
+  "version": "1.0.0",
+  "description": "My exceptional Nuxt.js project",
+  "author": "SA",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "test:u": "jest -u",
+    "storybook": "start-storybook -p 6006 -s ./static",
+    "build-storybook": "build-storybook"
+  },
+  "lint-staged": {
+    "*.{ts,js,vue}": "yarn lint",
+    "*.{css,vue}": "stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "nuxt": "^2.0.0",
+    "nuxt-property-decorator": "^2.7.2",
+    "vue-property-decorator": "^8.4.1",
+    "vuex-module-decorators": "^0.17.0",
+    "@types/nuxtjs__auth": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/eslint-config-typescript": "^1.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/stylelint-module": "^3.1.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/vue": "^5.3.18",
+    "@types/jest": "^25.1.5",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.0",
+    "jest": "^24.1.0",
+    "lint-staged": "^10.0.0",
+    "prettier": "^1.19.1",
+    "stylelint": "^10.1.0",
+    "ts-jest": "^25.0.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}

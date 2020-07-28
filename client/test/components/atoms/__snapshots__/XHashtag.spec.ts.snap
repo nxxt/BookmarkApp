@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XHashtag.vue the entire template snapshot 1`] = `
+"<div class=\\"x-hashtag d-flex align-center\\"><span class=\\"pa-1 darker amber--text text--lighten-3 v-chip v-chip--clickable v-chip--label v-chip--no-color theme--light v-size--small\\"><span class=\\"v-chip__content\\">
+    #TAG001
+  </span></span><span class=\\"pa-1 darker amber--text text--lighten-3 v-chip v-chip--clickable v-chip--label v-chip--no-color theme--light v-size--small\\"><span class=\\"v-chip__content\\">
+    #TAG002
+  </span></span></div>"
+`;

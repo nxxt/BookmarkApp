@@ -1,0 +1,4 @@
+[
+  { "id": 0, "text": "list", "icon": "mdi-view-list" },
+  { "id": 1, "text": "card", "icon": "mdi-credit-card" }
+]

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XCardItem.vue the entire template snapshot 1`] = `
+"<v-card-stub loaderheight=\\"4\\" tag=\\"div\\" color=\\"darker\\" draggable=\\"\\" class=\\"card_item mx-1 my-3 card_item\\">
+  <v-card-text-stub class=\\"px-2 py-0 d-flex align-center\\">
+    <x-checkbox-stub class=\\"mr-4\\"></x-checkbox-stub>
+    <v-spacer-stub></v-spacer-stub>
+    <x-tooltip-btn-stub tooltip=\\"open\\" classes=\\"browser_open_btn\\" icon=\\"\\" link=\\"\\" tag=\\"a\\" href=\\"https://jp.vuejs.org/index.html\\" target=\\"_blank\\">
+      <v-icon-stub>mdi-open-in-new</v-icon-stub>
+    </x-tooltip-btn-stub>
+    <x-tooltip-btn-stub tooltip=\\"edit\\" classes=\\"bookmark_edit_btn\\" icon=\\"\\">
+      <v-icon-stub>mdi-pencil</v-icon-stub>
+    </x-tooltip-btn-stub>
+    <x-tooltip-btn-stub tooltip=\\"delete\\" classes=\\"bookmark_remove_btn\\" icon=\\"\\">
+      <v-icon-stub>mdi-delete</v-icon-stub>
+    </x-tooltip-btn-stub>
+  </v-card-text-stub>
+  <v-card-text-stub class=\\"pa-0 d-flex justify-center\\">
+    <div class=\\"thumbnail_frame\\">
+      <v-img-stub height=\\"100%\\" maxheight=\\"auto\\" minheight=\\"auto\\" width=\\"100%\\" options=\\"[object Object]\\" position=\\"center center\\" src=\\"http://localhost:5000/static/5ef3668015ceb88170b5b001.png\\" transition=\\"fade-transition\\"></v-img-stub>
+    </div>
+  </v-card-text-stub>
+  <v-card-text-stub>
+    <x-list-item-title-stub _id=\\"5ef3668015ceb88170b5b001\\" number=\\"5\\" text=\\"Vue.js\\" url=\\"https://jp.vuejs.org/index.html\\" class=\\"subtitle-1\\"></x-list-item-title-stub>
+    <div>
+      <x-hashtag-stub items=\\"5ef3539b41c7218314tag001,5ef3522c41c7218314tag002\\"></x-hashtag-stub>
+    </div>
+    <div class=\\"d-flex align-center flex-wrap caption grey--text text--lighten-1\\">
+      <x-folder-text-stub items=\\"5ef35e1118cb777folder001,5ef6ab9cbe8bcd4folder002\\"></x-folder-text-stub> <span>・</span>
+      <x-domain-text-stub text=\\"jp.vuejs.org\\"></x-domain-text-stub> <span>・</span>
+      <x-date-text-stub text=\\"2020-06-24T14:43:12.335Z\\"></x-date-text-stub>
+    </div>
+  </v-card-text-stub>
+</v-card-stub>"
+`;

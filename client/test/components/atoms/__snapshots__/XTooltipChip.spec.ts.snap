@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XTooltipChip.vue template snapshot 1`] = `"<span class=\\"v-tooltip v-tooltip--bottom\\"><!----><div class=\\"x-tooltip-chip px-2 test dark\\" style=\\"border-radius: 5px;\\"></div></span>"`;

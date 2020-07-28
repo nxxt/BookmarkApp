@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XListItemTitle.vue The entire template snapshot 1`] = `
+"<div class=\\"x-list-item-title d-flex align-center\\"><span class=\\"v-tooltip v-tooltip--bottom\\" label=\\"\\" x-small=\\"\\" style=\\"width: 100px;\\"><!----><div class=\\"x-tooltip-chip px-2 body-2 mr-2 white--text font-weight-bold blue\\" style=\\"border-radius: 5px;\\">
+    10
+  </div></span> <a title=\\"test_url\\" href=\\"test_url\\" target=\\"_blank\\" class=\\"white--text list_item_title_text\\">
+    test_text
+  </a></div>"
+`;

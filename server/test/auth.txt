@@ -1,0 +1,26 @@
+###
+POST http://localhost:5000/api/v1/auth/users
+content-type: application/json
+
+{
+    "firstName": "A",
+    "lastName": "S",
+    "role": "1",
+    "email": "phigdelta8823@gmail.com",
+    "password": "121Spark"
+}
+
+###
+GET http://localhost:5000/api/v1/auth/users/5ed1e1205fa1655054b0dd62
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+###
+POST http://localhost:5000/api/v1/auth/login
+authorization: bearer XXXXXXXXX
+content-type: application/json
+
+{
+    "email": "test1@test.com",
+    "password": "test1"
+}

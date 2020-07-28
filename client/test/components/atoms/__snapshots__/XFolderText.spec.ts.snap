@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XFolderText.vue the entire template snapshot 1`] = `
+"<div class=\\"x-folder-text d-flex align-center\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mr-1 mdi mdi-folder theme--light\\" style=\\"font-size: 12px;\\"></i> <span class=\\"mr-1\\">
+    FOLDER001,
+  </span><span class=\\"\\">
+    FOLDER002
+  </span></div>"
+`;

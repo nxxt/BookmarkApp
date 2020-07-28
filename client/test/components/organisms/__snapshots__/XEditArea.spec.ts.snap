@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XEditArea.vue the entire template snapshot 1`] = `
+"<div class=\\"container pa-1 ma-0 container--fluid\\">
+  <div class=\\"row\\">
+    <div class=\\"d-flex align-center col\\"><span class=\\"v-tooltip v-tooltip--bottom\\"><!----></span> <span class=\\"v-tooltip v-tooltip--bottom\\"><!----><button type=\\"button\\" class=\\"x-edit-area-arrow-left-btn v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--small\\" role=\\"button\\" aria-haspopup=\\"true\\" aria-expanded=\\"false\\"><span class=\\"v-btn__content\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-arrow-left theme--light\\"></i></span></button></span></div>
+  </div>
+  <div class=\\"row scroll\\">
+    <div class=\\"d-flex justify-center col\\"></div>
+  </div>
+</div>"
+`;

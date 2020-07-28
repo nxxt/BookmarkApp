@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XTooltipBtn.vue the entire template snapshot 1`] = `"<span class=\\"v-tooltip v-tooltip--bottom\\"><!----><div><button type=\\"button\\" class=\\"x-tooltip-btn v-btn v-btn--contained theme--light v-size--default test\\"><span class=\\"v-btn__content\\"></span></button></div></span>"`;
