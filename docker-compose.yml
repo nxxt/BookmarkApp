@@ -41,8 +41,8 @@ services:
       - mongo-data:/data/db
       - mongo-config:/data/configdb
 
-  mongo-data:
-    image: busybox
+#  mongo-data:
+#    image: busybox
 
   mongo-express:
     image: mongo-express
