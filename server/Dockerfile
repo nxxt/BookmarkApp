@@ -16,5 +16,6 @@ FROM node:10.16.1-alpine
 WORKDIR /app
 # 別のビルドからコピー
 COPY --from=server-build-env /app /app
+RUN mkdir ./shots
 EXPOSE 5000
 CMD ["yarn", "start"]
