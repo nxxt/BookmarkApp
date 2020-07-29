@@ -26,6 +26,9 @@ services:
       - mongo
     env_file:
       - ./.prod.env
+    volumes:
+      - cards:/app/shots
+
   # 以下mongoDBのコンテナ設定。コンテナ名は「mongo」とつく。
   mongo:
     # mongoの公式コンテナイメージを元にして作成する。
@@ -57,3 +60,4 @@ services:
 volumes:
   mongo-data:
   mongo-config:
+  cards:
